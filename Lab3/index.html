@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hello JQuery 3</title>
+    <link rel="stylesheet" href="bulma-0.7.2/css/bulma.min.css">
+    <link rel="stylesheet" href="data.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
+
+</head>
+<body>
+    <section class="section">
+    <div class="container">
+        <h1>Game Of Thrones</h1>
+        <div class="level">
+            <div class="level-item">
+    
+                <div class="field is-horizontal">
+                    <div>
+                            <form action="/action_page.php" method="get"class="t">
+                                <input type="checkbox" id="name" value="n"> name<br>
+                                <input type="checkbox" id="slogan" value="s" > slogan<br>
+                                <input type="checkbox" id="alias" value="a" > alias<br>
+                                <input type="checkbox" id="maincharacter" value ="m"> main character<br>
+                             </form>
+                    </div>
+                        
+                    <div class="field-label is-normal">
+                        <label class="label" for="input-text">Search: </label>
+                    </div>
+                    <div class="field-body">
+                        <div class="field">
+                        <p class="control">
+                            <input  class="input is-rounded" 
+                                    type="text" id="input-text"
+                                    placeholder="Winter is coming">
+                        </p>
+                        </div>
+
+                        <div class="control">
+                            <button id="submit-btn" class="button is-primary">
+                                Submit
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="level-item">
+               
+        
+            </div>
+        </div>
+        <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>name</th>
+                <th>symbol</th>
+                <th>slogan</th>
+                <th>place</th>
+                <th>lord</th>
+                <th>alias</th>
+                <th>main character</th> 
+              </tr>
+            </thead>
+            <tbody id ="table-item">
+            </tbody>
+            </table>
+            
+        
+    </div>
+        <div class="ref">
+            <p> <a href ="https://www.paperyard.co/paperblog/12-house-in-game-of-thrones">Reference: https://www.paperyard.co/paperblog/12-house-in-game-of-thrones</a> </p>
+            <p> <a href="https://wallpapercave.com/wp/CcSO2Pl.jpg">Picture: https://wallpapercave.com/wp/CcSO2Pl.jpg</a> </p>
+        </div>
+    </section>
+    
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="myscript.js"></script>
+</body>
+</html>
